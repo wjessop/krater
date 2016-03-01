@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 )
 
 func sequentialIntGen() func() int {

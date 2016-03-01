@@ -13,7 +13,7 @@ import (
 
 	"github.com/bradfitz/iter"
 
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 )
 
 func newFakeProd(insz int) *fakeProd {

@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 )
 
 // type KeyerFn represents any function that can turn a message into a key for that particular message

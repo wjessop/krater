@@ -46,7 +46,7 @@ import (
 	"syscall"
 
 	"github.com/ORBAT/krater"
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 
 	f "github.com/jessevdk/go-flags"
 )

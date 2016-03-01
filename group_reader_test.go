@@ -7,7 +7,7 @@ import (
 
 	"github.com/bradfitz/iter"
 
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 
 	kcon "github.com/ORBAT/krater/kafkaconsumer"
 )

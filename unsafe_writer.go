@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 )
 
 // UnsafeWriter is an io.Writer that writes messages to Kafka, ignoring any error responses sent by the brokers.

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Shopify/sarama"
 	"github.com/samuel/go-zookeeper/zk"
 	"github.com/wvanbergen/kazoo-go"
-	"gopkg.in/Shopify/sarama.v1"
 	"gopkg.in/tomb.v1"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/Shopify/sarama.v1"
+	"github.com/Shopify/sarama"
 	"github.com/wvanbergen/kazoo-go"
 	"gopkg.in/tomb.v1"
 )
